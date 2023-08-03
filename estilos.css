@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(80, 78, 78);
+    font-family: Arial;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+h1{
+    font-size: 4rem;
+    background-color:rgb(223, 218, 228);
+    color: rgba(0, 0, 0, 0.712);
+    padding-left: 10vh;
+}
+
+#futuro{
+    padding-bottom: 9vh;
+}
+
+.titulo {
+    background-color: rgb(223, 218, 228);
+    text-align: center;
+    height: 86vh;
+    padding-left: 10vh;
+}
+.titulo p{
+    text-align: left;
+    padding-top: 2vh;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.torneos {
+    display: flex;
+}
+
+.torneos img {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 100rem;
+    border-radius: 20px;
+    border: 1rem solid rgb(253, 36, 36);
+}
+
+.titulo .botones a{
+    padding: 0px 10px 0px;
+    font-family: arial;
+    margin-right: 9vh;
+    font-weight: 800;
+    font-size: 2em;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 28, 29);
+}
+
+.botones a:hover{
+    background-color: transparent;
+    border: 4px solid rgb(2, 2, 2);
+    color: rgb(0, 0, 0);
+}
+
+.experiencia, .datosP, .perfiles, .torneos, .educ {
+    height: 100vh;
+    background-color:rgb(223, 218, 228);
+}
